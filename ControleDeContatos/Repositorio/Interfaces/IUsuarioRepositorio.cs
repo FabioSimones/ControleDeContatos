@@ -12,5 +12,6 @@ namespace ControleDeContatos.Repositorio.Interfaces
         UsuarioModel Atualizar(UsuarioModel usuario);
         bool Apagar(int id);
         UsuarioModel BuscarPorEmailELogin(string email, string login);
+        UsuarioModel AlterarSenha(AlterarSenhaModel alterarSenhaModel);
     }
 }
